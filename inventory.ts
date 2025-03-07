@@ -103,15 +103,6 @@ tracker.add(Fruit.Apples, 50);
 tracker.sell(Fruit.Apples, 20, new Date('2024-07-01'));
 tracker.add(Fruit.Apples, 50);
 tracker.sell(Fruit.Apples, 60, new Date('2024-11-01'));
-tracker.add(Fruit.Apples, 50);
-tracker.sell(Fruit.Apples, 20);
-tracker.add(Fruit.Bananas, 120);
-tracker.sell(Fruit.Bananas, 99, new Date('2024-04-01'));
-tracker.add(Fruit.Bananas, 120);
-tracker.sell(Fruit.Bananas, 200, new Date('2024-07-01'));
-tracker.add(Fruit.Bananas, 120);
-tracker.sell(Fruit.Bananas, 60, new Date('2024-11-01'));
-tracker.add(Fruit.Bananas, 120);
-tracker.sell(Fruit.Bananas, 150);
+
 tracker.sell(Fruit.Oranges, 150);
 tracker.report();
